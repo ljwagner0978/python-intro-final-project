@@ -51,8 +51,7 @@ The main takeaway of this graph is both to visually show how inequality fluctuta
 
 This chart type was chosen because I believe it most clearly demonstrates changes in income inequality over time, especially considering data for multiple countries are plotted onto the same graph.
 
-Quick Note: In order for the terminal to progress, you must exit out of the pop up graph after the code:
+Quick Note: In order for the terminal to progress, you must exit out of the pop up graph after the following code is run!:
 ```bash
 plt.show()
 ```
-is run!
