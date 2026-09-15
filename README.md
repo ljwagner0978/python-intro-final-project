@@ -46,7 +46,7 @@ If an unexpected value is inputted, the user will receive the following output i
 Running this code produces a line graph showing each country's gini coefficients by year in the region searched by the user. The x axis contains the years corresponding to the gini coefficient data collected. The y axis corresponds to the gini coefficient.
 
 ```bash
-![Example output from searching "Europe"](Figure_1.png)
+<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/df3061f3-de4a-4a74-91c4-940798a08723" />
 ```
 The main takeaway of this graph is both to visually show how inequality fluctutates in countries throughout time, and how countries compare to one another in terms of inequality. A second takeaway is to show how the lack of consistently collected data can skew results.
 
