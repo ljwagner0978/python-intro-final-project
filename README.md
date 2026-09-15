@@ -39,4 +39,21 @@ If an unexpected value is inputted, the user will receive the following output i
 
 ## CLI Interactions
 
-- **Filter by region** — enter a region name to see all matching records for income inequality report generation
+- **Filter by region** — enter a region name to generate an income inequality report for each country in the specified region
+
+## Visualization
+
+Running this code produces a line graph showing each country's gini coefficients by year in the region searched by the user. The x axis contains the years corresponding to the gini coefficient data collected. The y axis corresponds to the gini coefficient.
+
+```bash
+![Example output from searching "Europe"](Figure_1.png)
+```
+The main takeaway of this graph is both to visually show how inequality fluctutates in countries throughout time, and how countries compare to one another in terms of inequality. A second takeaway is to show how the lack of consistently collected data can skew results.
+
+This chart type was chosen because I believe it most clearly demonstrates changes in income inequality over time, especially considering data for multiple countries are plotted onto the same graph.
+
+Quick Note: In order for the terminal to progress, you must exit out of the pop up graph after the code:
+```bash
+plt.show()
+```
+is run!
